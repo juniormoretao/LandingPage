@@ -1,0 +1,269 @@
+* {
+    margin: 0px 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    user-select: none;
+
+}
+
+header {
+    padding: 20px 0;
+    
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px; 
+    position: relative;
+    width: 100%; 
+    border-bottom: 1px solid #d4d2d2;
+    
+
+}
+
+
+.logo img {
+    width: 100px;
+    margin-left: 0; 
+    padding-left: 0;
+
+    
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+.menu li {
+    margin-left: 20px;
+    padding-left: 50px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #525050;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    color: #000000;
+}
+
+.login a {
+    margin-left: 20px;
+    border: 1px solid #b8b5b5;
+    border-radius: 20px;
+    padding: 10px 15px; 
+    text-decoration: none;
+    color: #333; 
+    transition: background-color 0.3s; 
+    
+}
+
+.login a:hover{
+    color: #000000;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    font-size: 40px;
+}
+.intro img {
+    width: 500px;
+    max-width: 100%;
+}
+
+.intro b{
+    color:  #872d97;
+    text-transform: uppercase;
+
+}
+.login a.roxo {
+    background-color:  darkviolet; 
+    color: white; 
+    border: 1px solid #ad54e7;
+}
+
+.login a.roxo:hover {
+    background-color: rgb(127, 3, 180);
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+}
+  
+  .carousel-item {
+    width: 500px; 
+
+  }
+  
+  #sobre {
+    position: relative;
+    width: 100%;
+
+  }
+
+  .carousel-item h2{
+    font-style: italic;
+    font-weight: 400;
+    width: 100%;
+    word-spacing: 7px;
+    margin-left: 200px;
+    border-left: 1px solid #6e6d6d;
+    padding-left: 30px;
+  }
+  
+  button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  button.prev {
+    left: 10px;
+  }
+  button.next {
+    right: 10px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px; 
+    background: transparent; 
+}
+
+#produtos {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.produto-lista {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    max-width: 100%;
+    flex-wrap: wrap; 
+}
+
+.produto-item {
+    margin: 10px;
+    flex: 1;
+    max-width: 33%; 
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produto-item img {
+    width: auto;
+    height: 300px; 
+    object-fit: contain; 
+    display: block;
+    background-color: #fff; 
+    padding: 10px; 
+}
+
+#produtos h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #333;
+    margin-top: 10px;
+}
+
+
+#contato {
+    max-width: 500px; 
+    margin: auto; 
+    padding: 20px; 
+
+}
+
+form {
+    display: flex;
+    flex-direction: column; 
+}
+
+label {
+    margin-top: 20px; 
+}
+
+input, textarea {
+    padding: 10px; 
+    margin-top: 5px; 
+
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px; 
+    background-color:  darkviolet; ;
+    color: white; 
+    border: none; 
+    border-radius: 3px; 
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color:  rgb(127, 3, 180); 
+}
+
+#mapa {
+    max-width: 600px; 
+    margin: auto; 
+}
+.container {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    margin: 20px; 
+}
+
+section {
+    flex: 1;
+    margin: 10px; 
+    min-width: 300px;
+    padding: 20px; 
+}
+
+#mensagem {
+    width: 100%;
+    max-width: 450px; 
+    height: 150px; 
+    border: 1px solid #5c5b5b; 
+    padding: 10px; 
+    resize: none; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+}
+
+footer{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
